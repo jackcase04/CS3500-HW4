@@ -10,7 +10,7 @@ string token;
 int main() {
     get_token();
 
-    is_statement_sequence();
+    parse_statement_sequence();
 
     return 0;
 }
