@@ -1,26 +1,18 @@
-#ifndef HELPER_H
-#define HELPER_H
+#ifndef TOKENS_H 
+#define TOKENS_H
 
-int scientific(char string[]);
+#include <string>
 
-int decimal(char string[]);
+bool decimal(std::string local_token);
 
-int integer(char string[]);
+bool integer(std::string local_token);
 
-int keyword(char string[]);
+bool keyword(std::string local_token);
 
-int hexadecimal(char string[]);
+bool identifier(std::string local_token);
 
-int charliteral(char string[]);
+bool string_literal(std::string local_token);
 
-int aircraft(char string[]);
-
-int identifier(char string[]);
-
-int string_literal(char string[]);
-
-int phone_number(char string[]);
-
-void lexx(char string[]);
+bool is_operator(std::string local_token);
 
 #endif

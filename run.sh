@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc src/puckparser.c src/tokens.c -I include -o puckparser.ex
-./a.out
+g++ src/puckparser.cpp src/tokens.cpp src/grammar.cpp -I include -o puckparser.ex
+./puckparser.ex
