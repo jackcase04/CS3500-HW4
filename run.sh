@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc src/lexer.c src/helper.c -I include
+gcc src/puckparser.c src/tokens.c -I include
 ./a.out

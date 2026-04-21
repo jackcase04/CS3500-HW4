@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "helper.h"
+#include "tokens.h"
 
 int main() {
     int n;
